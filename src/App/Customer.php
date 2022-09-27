@@ -9,6 +9,6 @@ class Customer
 
     public function sayHello(string $name): string 
     {
-        return "Hello $name, My Name Is $this->name";
+        return "Hello $name, My Name Is $this->name".PHP_EOL;
     }
 }
